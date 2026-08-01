@@ -1,0 +1,15 @@
+Organizacion del Dominio
+El dominio corp.local se divide en carpetas o unidades organizativas para ordenar los elementos:
+
+Equipos: Contiene a las computadoras de la red y al servidor.
+
+Departamentos: Se separan áreas como tecnologia y recursos humanos con sus respectivos usuarios.
+
+
+Cuentas de Usuario Importantes
+
+Administrador: Cuenta principal con control total de la red.
+
+asrepuser: Cuenta configurada con una debilidad para permitir pruebas de seguridad sin contraseña inicial.
+
+Cuentas de servicio (sqlsvc y websvc): Cuentas que podrian ser usadas por programas o bases de datos que tienen nombres especiales (tipo SPN) para funcionar en segundo plano.
